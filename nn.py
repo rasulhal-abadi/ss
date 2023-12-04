@@ -6,7 +6,7 @@ import firebase_admin
 from firebase_admin import credentials, db, initialize_app
 import os
 
-cred = credentials.Certificate("C:\\Users\\3bse\\Desktop\\al-zahraa\\iqv1-0.json")
+cred = credentials.Certificate("C:\\root\\ksmk\\iqv1-0.json")
 firebase_admin.initialize_app(cred, {'databaseURL': 'https://db-mih-default-rtdb.firebaseio.com/'})
 database_connections = {
     "اربيل": "erbil.sqlite",
